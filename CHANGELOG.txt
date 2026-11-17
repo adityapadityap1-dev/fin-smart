@@ -1,0 +1,20 @@
+FIN SMART CHANGELOG
+===================
+
+2.0.0 — Professional redesign
+- Refreshed the interface into a responsive dark black-and-red fintech design.
+- Reorganized navigation and shortened dashboard quick actions.
+- Preserved the existing dashboard, budgets, transactions, savings goals, core calculators, EMI planner, schemes, learning centre, quiz, profile and backup functions.
+- Added Financial Health Score, Net Worth Tracker, Student Finance Planner, virtual Investment Simulator, Financial Safety Centre, Learning Challenges and Finance News source directory.
+- Added FD, RD, PPF estimate, inflation, education-loan EMI, credit-card payoff, retirement and manual-rate tax estimate calculators.
+- Added an optional real AI backend integration using a server-side OpenAI API key.
+- Added local storage adapter and state normalization to support future storage migration.
+- Updated README, architecture and security documentation.
+- Kept the application English-only.
+
+Known limitations
+- AI requires the owner to configure an OpenAI API key and run the Node server.
+- Cloud database, user accounts and cross-device synchronization are not implemented.
+- Finance News links to trusted source websites but does not fetch live headlines.
+- The tax estimate uses a user-entered flat effective rate; it is not a statutory Indian tax-slab calculation.
+- Investment simulator has no live quotes or real trading.

@@ -1,0 +1,17 @@
+FIN SMART 2.0 — SECURITY & PRIVACY NOTES
+=======================================
+
+LOCAL FINANCIAL DATA
+Financial records are stored in localStorage in the browser. Anyone with access to the same unlocked browser profile may be able to access them. Use a trusted device, keep its login protected, and export backups securely.
+
+AI QUESTIONS
+When configured, the AI assistant sends the text of the question to the backend, which forwards it to the OpenAI API. The API key stays on the server and is not returned to the browser. Avoid entering names, contact details, account numbers, PAN/Aadhaar numbers, OTPs, passwords, UPI PINs, card data or other sensitive information.
+
+NO CLOUD ACCOUNT
+This version has no account registration, cloud database, server-side personal-finance storage or cross-device synchronization.
+
+SERVER SECURITY
+The included Node server is a local development starter. It has request-size limits, a simple in-memory per-IP rate limit, same-origin API routes and basic security headers. It is not a substitute for a production security review. Do not publicly expose it without TLS, durable rate limiting, monitoring, secrets management, dependency/update policy and a security assessment.
+
+AI AND FINANCIAL SAFETY
+AI-generated content can be wrong or outdated. Verify financial, tax, legal, scheme and investment matters with official sources. The application does not provide personalised investment recommendations or execute financial transactions.

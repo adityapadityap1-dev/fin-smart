@@ -1,0 +1,8 @@
+{
+  "name": "fin-smart",
+  "version": "2.0.0",
+  "private": true,
+  "description": "English-only financial education and personal money planning application",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
